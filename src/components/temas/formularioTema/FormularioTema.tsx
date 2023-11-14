@@ -35,7 +35,7 @@ function FormularioTema() {
     }
 
     useEffect(() => {
-        if (token === '') {
+        if (token === ' ') {
             alert('Você precisa estar logado');
             navigate('/login');
         }
